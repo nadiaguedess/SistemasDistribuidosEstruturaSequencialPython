@@ -39,7 +39,7 @@ def desejaTestarOutra():
     else:
         print('Fim!')
 
-numeroAtividade = int(input('Por favor digite o número da atividade que deseja validar: '))
+numeroAtividade = int(input('Por favor digite o número da atividade que deseja validar (números válidos: 1, 2 ou 9): '))
 
 if numeroAtividade == 1:
     atividade1()
